@@ -1,0 +1,20 @@
+
+.msg{
+    text-align: center;
+}
+
+
+form{
+    width: 600px;
+    margin-left: 600px;
+    margin-top: 200px;
+    position: fixed;
+
+}
+button{
+    color: black;
+    background-color: rgba(114, 128, 133, 0.959);
+}
+h1{
+    font-family:cursive;
+}

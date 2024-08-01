@@ -1,0 +1,35 @@
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust if necessary */
+}
+
+.image-container img {
+    margin: 5px; /* Adjust spacing between images */
+    max-width: 100%; /* Ensure images don't exceed container width */
+    max-height: 100%; /* Ensure images don't exceed container height */
+}
+.collage {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+    grid-gap: 10px;
+    width: 800px; /* Adjust frame width as needed */
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid #ccc;
+    overflow-y:scroll;
+
+}
+
+
+.image {
+    overflow: hidden;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}

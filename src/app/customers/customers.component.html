@@ -1,0 +1,49 @@
+<!-- src/app/top-header/top-header.component.html -->
+<header class="top-header navbar navbar-expand-lg ">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="/assets/images (4).png" style="width: 60px;height: 60px;" alt="Logo" class="logo">
+            <span class="app-name ms-2">My App</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</header>
+
+<body>
+    <div>
+        <div class="card-body">
+            <h1><img class="image-icon" src="/assets/download (4).png" alt="image">customers</h1><br>
+            
+            <a href="/customercards">
+                <img class="image" src="/assets/images (5).png" alt="icon">
+                <i class="bi bi-arrow-right-circle" style="color: black;">Card view</i> 
+            </a>
+            <a href="/customerlist">
+                <i class="bi bi-arrow-right-circle" style="color: black;">list view</i> 
+
+            </a>
+        </div>
+    </div>
+    <app-customercards></app-customercards>
+</body> 
+    

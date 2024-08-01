@@ -1,0 +1,31 @@
+<form>
+<div style="text-align:center">
+    <h1>
+      Angular Pipes Demo
+    </h1>
+  
+    <!-- UpperCasePipe -->
+    <h2>UpperCasePipe</h2>
+    <p>{{ upperText | uppercase }}</p>
+  
+    <!-- LowerCasePipe -->
+    <h2>LowerCasePipe</h2>
+    <p>{{ lowerText | lowercase }}</p>
+  
+    <!-- CurrencyPipe -->
+    <h2>CurrencyPipe</h2>
+    <p>{{ moneyAmount | currency:'USD' }}</p>
+  
+    <!-- DecimalPipe -->
+    <h2>DecimalPipe</h2>
+    <p>{{ decimalValue | number:'1.2-2' }}</p>
+  
+    <!-- PercentPipe -->
+    <h2>PercentPipe</h2>
+    <p>{{ percentValue | percent:'1.2-2' }}</p>
+  
+    <!-- DatePipe -->
+    <h2>DatePipe</h2>
+    <p>{{ currentDate | date:'fullDate' }}</p>
+  </div>
+</form>

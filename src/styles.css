@@ -1,0 +1,52 @@
+.contact-container {
+  position: fixed;
+  top: 50%;
+  right: 200px;
+  /* Adjust the distance from the right side */
+  transform: translateY(-50%);
+}
+
+/*style for contact us let us talk form*/
+form {
+  background-color: rgb(231, 238, 240);
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px #e6e2e2, -10px -10px 20px #ebeaea;
+}
+
+/*style for contact us get in touch form*/
+.contact-container {
+  width: 500px;
+  height: 350px;
+  padding: 20px;
+  border-radius: 10px;
+  /* background: linear-gradient(145deg, #e6e6e6, #ffffff); */
+  box-shadow: 20px 20px 30px #867d7d, -10px -10px 20px #666363;
+}
+
+
+/*styles for get in touch code written in contact.ts read only comonent file*/
+.contact-container h4 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact-container h3,
+.contact-container h1,
+.contact-container h2 {
+  margin-bottom: 10px;
+  display: flex;
+  padding-left: 150px;
+  text-align: center;
+}
+
+.contact-container img {
+  width: 60px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+
+ 

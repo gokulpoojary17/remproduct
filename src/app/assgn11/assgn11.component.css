@@ -1,0 +1,14 @@
+
+button{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    font-size: 60px;
+    font-family: cursive;
+
+}
+.btn{
+    text-align: center;
+    padding-left: 400px;
+    position: fixed;
+}

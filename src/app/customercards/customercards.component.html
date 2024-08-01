@@ -1,0 +1,21 @@
+<div class="container mt-4">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col-md-4 mb-4" *ngFor="let customer of customers">
+      <div class="card mb-4">
+        <header>{{customer.name}}</header>
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img [src]="customer.image" class="img-fluid rounded-start" alt="{{customer.name}}">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">{{customer.city}}</h5>
+              <p class="card-text">{{customer.orders}}</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,9 @@
+<div class="container">
+    <h1>Pyramid Generator </h1>
+    <br>
+    <label for="rows">Number of rows:</label>
+    <input id="rows" type="number" [(ngModel)]="numberOfRows" min="1">
+    <button (click)="generatePyramid()">Generate</button>
+    <pre>{{ pyramid }}</pre>
+  </div>
+  

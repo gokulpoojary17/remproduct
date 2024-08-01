@@ -1,0 +1,15 @@
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+<form>
+<div class="greet">
+    
+    <h1 >Greetings!{{username}}</h1>
+
+    <button (click)="toggleprofile()" >
+    {{showimage?'Close':'Display'}}</button>
+    <br>
+    <br>
+    <img *ngIf="showimage" [src]="profileimg" alt="'image" >
+</div>
+</form>
+
+

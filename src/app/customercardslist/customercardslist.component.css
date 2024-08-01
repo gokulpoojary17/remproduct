@@ -1,0 +1,30 @@
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+  
+  .img-fluid {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+ 
+  .table-responsive {
+    overflow-x: auto;
+  }
+  
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  .container{
+    width: 800px;
+  }

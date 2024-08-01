@@ -1,0 +1,23 @@
+/* .hd-form{
+    text-align: center;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    color: rgb(66, 53, 51);
+}*/
+
+.card {
+    margin-left: 700px;
+    text-align: center;
+    margin-top: 200px;
+    position: fixed;
+    width: 500px;
+    height: 200px;
+
+    
+    
+
+} 
+.alert{
+    font-size: 20px;
+}

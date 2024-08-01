@@ -1,0 +1,30 @@
+/* .hd-form{
+    text-align: center;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    color:rgb(46, 37, 37);
+    position: fixed;
+}
+
+form {
+    margin-left: 700px;
+    text-align: center;
+    margin-top: 200px;
+    position: fixed;
+
+    /* Adjust the distance from the right side */
+ 
+    
+nav{
+   
+    margin-top: 80px;
+    margin-left: 800px;
+    text-align: center;
+    font-size: 30px;
+}
+form{
+    width: 400px;
+    height: 200px;
+}
+

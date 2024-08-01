@@ -1,0 +1,33 @@
+
+<div class="container mt-4" style="width: 90%;">
+    <div class="table table-responsive table-striped">
+      <table class="table table-bordered">    
+
+        <thead style="background-color: rgb(255, 255, 255);">
+          <tr>
+            <th scope="col">Image</th>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Adress</th>
+            <th scope="col">City</th>
+            <th scope="col">Orders</th>
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let customer of customers">
+            <td><img [src]="customer.image" class="img-fluid" alt="{{customer.name}}" style="width: 40px;height: 40px;"></td>
+            <td>{{customer.name}}</td>
+            <td>{{customer.email}}</td>
+            <td>{{customer.adress}}</td>
+            <td>{{customer.city}}</td>
+            <td>{{customer.orders}}</td>
+
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  
+  
+   

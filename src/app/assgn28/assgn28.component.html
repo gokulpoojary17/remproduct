@@ -1,0 +1,32 @@
+<div class="container mt-2">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col-md-4 mb-4" *ngFor="let customer of customers">
+            <div class="card mb-4" >
+                <header>{{customer.name}}</header>
+
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img [src]="customer.image" class="img-fluid rounded-start" alt="{{customer.name}}">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">{{customer.city}}</h5>
+                            <p class="card-text">{{customer.adress}}</p>
+                            <p class="card-text">{{customer.orders}}</p>
+
+                        </div>
+                    
+                    </div>
+                  
+                </div>
+               
+            </div>
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.843572410041!2d73.01415717609125!3d19.114517182098147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c0c3cb5f2b67%3A0xee0a972d690120a4!2sRemiges%20Technologies%20Pvt%20Ltd%20(formerly%20known%20as%20Merce%20Technologies%20Pvt%20Ltd)!5e0!3m2!1sen!2sin!4v1716376449632!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    
+
+</div>

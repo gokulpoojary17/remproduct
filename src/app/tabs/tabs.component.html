@@ -1,0 +1,28 @@
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<div>
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link" [class.active]="activeTab === 'java'" (click)="setActiveTab('java')">Java</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [class.active]="activeTab === 'angular'" (click)="setActiveTab('angular')">Angular</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [class.active]="activeTab === 'sql'" (click)="setActiveTab('sql')">SQL</a>
+      </li>
+    </ul>
+    <div class="tab-content mt-3">
+      <div *ngIf="activeTab === 'java'" class="tab-pane active">
+        <div class="content" [innerHtml]="javaContent"></div>
+      </div>
+      <div *ngIf="activeTab === 'angular'" class="tab-pane active">
+        <div class="content" [innerHtml]="angularContent"></div>
+      </div>
+      <div *ngIf="activeTab === 'sql'" class="tab-pane active">
+        <div class="content" [innerHtml]="sqlContent"></div>
+      </div>
+    </div>
+  </div>
+  

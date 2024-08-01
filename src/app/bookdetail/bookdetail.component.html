@@ -1,0 +1,11 @@
+<div class="book">
+<div class="card mb-2">
+  <div class="card-body">
+
+    <h5 class="card-title">{{ book.title | the }}</h5>
+    <p class="card-text">{{ book.description }}</p>
+    <app-bookrating (ratingEvent)="receiveRating($event)"></app-bookrating>
+
+  </div>
+</div>
+</div>

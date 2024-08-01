@@ -1,0 +1,21 @@
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  .container{
+    width:900px;
+    height: 500px;
+    margin-left: 300px;
+  }
+  
+   header{
+    background-color: rgb(84, 172, 243);
+    color: white;
+   }
+  .image{
+    width:20px;
+    height: 20px;
+    
+  }

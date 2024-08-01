@@ -1,0 +1,16 @@
+.greet{
+    text-align: center;
+    
+}
+button{
+    position: fixed;
+}
+h1{
+    color: rgb(42, 48, 48);
+}
+form{
+    position:fixed;
+    margin-left: 600px;
+    margin-top: 100px;
+    margin-left: 800px;
+}

@@ -1,0 +1,26 @@
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  .container{
+    width:1200px;
+    margin-left: 50px;
+    margin-top: 200px;
+  }
+  
+   header{
+    background-color: rgb(84, 172, 243);
+    color: rgb(2, 17, 221);
+   }
+  .image{
+    width:20px;
+    height: 30px;
+    
+  }
+  iframe{
+    width: 300%;
+    height: 400px;
+   
+  }

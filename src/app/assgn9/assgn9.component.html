@@ -1,0 +1,18 @@
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+   
+    <form>
+<div class="msg">
+     <h1>Techno Hub</h1><br>
+    <input type="text" #inputEl placeholder="search for any Technologies" ><br>
+    <br>
+    <button (click)="onbutton(inputEl)" >submit</button>
+   
+    <app-assgn7 [message] ="inputval" *ngIf="!todestroy"></app-assgn7>
+    
+<button (click)="destroyfile()">Destroy</button>
+</div>
+</form>
+
+    <router-outlet></router-outlet>
+    

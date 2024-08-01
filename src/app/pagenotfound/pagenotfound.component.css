@@ -1,0 +1,9 @@
+h1{
+    text-align: center;
+    display: flex;
+    color: rgb(222, 11, 11);
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 800px;
+    padding-top: 100px;
+    position: fixed;
+}
